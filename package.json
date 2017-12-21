@@ -1,0 +1,28 @@
+{
+  "name": "puetzhub",
+  "version": "1.0.0",
+  "description": "puetzhub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puetz/puetzHub.git"
+  },
+  "author": "Puetz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Puetz/puetzHub/issues"
+  },
+  "homepage": "https://github.com/Puetz/puetzHub#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "mocha": "^4.0.1",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
